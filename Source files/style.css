@@ -9,18 +9,49 @@ body{background-color: #FAF6E3 ;}
     
 }
 #navbar>a:link,#navbar>a:visited{
-    position: inherit;
+    position:inherit;
+    flex: 0 0 10.543%;
+    padding-left: 6%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     border: 1px solid black;
-    padding : 2% 5.71% 2% 5.55%;
     font-size: 17px;
     color:black;
-    text-decoration: none;
-    flex: 0 0 100px;
+    text-decoration: none;  
+    flex-direction: column;
+    
+}
+/* remember to remove border on final product (border is for guideline) */
+.itembox{
+    display:flex;
+    flex-direction:row;
+    height:800px;
+    border: 1px solid black;
 }
 
-.product{
-    display:flex;
-    flex-direction:column;
-    height:400px;
-    border: 1px solid black;
+.image{
+    flex:50%;
+    padding : 2.5% 4% 3.5% 4%;
+}
+
+.textbox{
+    position: inherit;
+    flex : 50%;
+
+}   
+.textbox>a:link.title, .textbox>a:visited.title{
+    position: relative;
+    display:block;
+    font-size: 23px;
+    padding:5% 35% 0% 35%;
+}
+.textbox>a:link.info, .textbox>a:visited.info{
+    position: relative;
+    display:block;
+    font-size: 23px;
+    padding:0% 29% 0% 36%;
+}
+.textbox>p {
+    padding: 2% 4% 2% 2%;
+    font-size: 18px;
 }

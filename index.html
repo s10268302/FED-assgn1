@@ -2,7 +2,7 @@
 
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Source files/style.css">
 <style>
 .header{
     color: #2A3663;
@@ -12,7 +12,16 @@
     font-weight: 400;
     font-style: normal;
     }   
-
+@media (max-width:1600px){
+    #navbar>a:link,#navbar>a:visited{
+        flex: 0 0 43.55%
+    }
+    .itembox{
+        flex-direction: column;
+        height:max-content;
+        flex-wrap:flex;
+    }
+}
 
 </style>
 </head>
@@ -20,19 +29,29 @@
 <h1 class="header"><strong>WATERFALL PRODUCTION PTE LTD</strong></h1>
 <nav id="navbar">
     <a href="index.html">Home Page</a>
-    <a href="products.html">Our products</a>
-    <a href="product explaination.html">What they do</a>
-    <a href="achievements.html">Achievements</a>
-    <a href="history.html">Our History</a>
-    <a href="trackrecord.html">Track records</a>
+    <a href="Source files/products.html">Our products</a>
+    <a href="Source files/product explaination.html">What they do</a>
+    <a href="Source files/achievements.html">Achievements</a>
+    <a href="Source files/history.html">Our History</a>
+    <a href="Source files/trackrecord.html">Track records</a>
 </nav>
 
-<article class="product">
-
+<article class="itembox">
+    <img src="Images/a smart hydration bottle.png" width="740" height="700" class="image" alt="image of a smart , digital water bottle">
+    <div class="textbox">
+        <a href="Source files/products.html" class="title" >Smart Hydration Bottle</a>
+        <p>The smart hydration bottle is an innovative solution designed to transform the way we approach staying hydrated. This high-tech bottle is equipped with a variety of advanced features aimed at making hydration easy, efficient, and tailored to individual needs. At the core of its functionality is a sophisticated sensor system that monitors and records your daily water intake. This data is displayed on a sleek, intuitive digital interface, providing real-time updates on the water's temperature, the remaining capacity, and your progress towards hydration goals.
+            <br><br>One of the standout features is the built-in UV-C light, which ensures the bottle is always clean and sanitary. By eliminating harmful bacteria and viruses, the UV-C light keeps the interior of the bottle sterile, which means your water is not just cool and refreshing but also safe to drink. This self-cleaning function is particularly beneficial for individuals with busy lifestyles who might not have the time to frequently wash their bottles.
+            <br><br>The smart hydration bottle also comes with a companion app that syncs with the bottle to offer personalized hydration plans. The app can send reminders and notifications to ensure you’re drinking enough water throughout the day, taking into account factors like your activity level, weather conditions, and personal health goals. Moreover, the app tracks long-term hydration patterns, helping you understand and improve your hydration habits over time.
+            <br><br>In terms of design, the bottle boasts a minimalist, ergonomic shape that fits comfortably in your hand and seamlessly into your everyday life. It's crafted from high-quality, BPA-free materials that are durable and environmentally friendly. Available in a range of colors and finishes, the smart hydration bottle is as stylish as it is functional, making it the perfect accessory for professionals, fitness enthusiasts, and anyone keen on maintaining their health and well-being.
+            <br><br>Whether you’re at the office, the gym, or on the go, the smart hydration bottle ensures you stay hydrated and healthy with ease. It's not just a water bottle—it's a companion in your journey towards better health, making sure you never forget to take a sip again.
+        </p>
+        <br><Br><a href="Source files/product explaination.html" class="info">Click here for more info</a>
+    </div>
 </article>
-<article class="product"></article>
-<article class="product"></article>
+
+<article class="itembox"></article>
+<article class="itembox"></article>
 </article>
 </body>
 </html>
-
