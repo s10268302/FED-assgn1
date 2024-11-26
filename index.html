@@ -4,6 +4,12 @@
 <head>
     <link rel="stylesheet" href="Source files/style.css">
 <style>
+.imagecontainer{
+    display: flex;
+    flex:0 1 50%;
+    justify-content: center;
+    align-items: center;
+}
 .header{
     color: #2A3663;
     text-align: center;
@@ -12,46 +18,116 @@
     font-weight: 400;
     font-style: normal;
     }   
+.textbox>a:link, .textbox>a:visited{
+    display:block;
+    font-size: 23px;
+    text-align: center;
+    padding-top:4%;
+}
+.textbox>p {
+    padding: 0% 4% 0% 2%;
+    font-size: 18px;
+}
+
+img{
+    width:75%;
+    height:85%;
+}
+
 @media (max-width:1600px){
     #navbar>a:link,#navbar>a:visited{
-        flex: 0 0 43.55%
+        display:flex;
+        align-items: center;
+        flex: 1 0 29.8%;
+        align-items: center;
+        justify-content: center;
+    
+    padding-top: 2%;
+    padding-bottom: 2%;
     }
     .itembox{
         flex-direction: column;
         height:max-content;
         flex-wrap:flex;
     }
+    .itembox-reverse{
+        flex-direction: column-reverse;
+        height:max-content;
+        flex-wrap:flex;
+    }
+
 }
 
 </style>
 </head>
 <body>
-<h1 class="header"><strong>WATERFALL PRODUCTION PTE LTD</strong></h1>
+<h1 class="header"><strong>AQUALIFE HYDRATION</strong></h1>
 <nav id="navbar">
     <a href="index.html">Home Page</a>
     <a href="Source files/products.html">Our products</a>
-    <a href="Source files/product explaination.html">What they do</a>
     <a href="Source files/achievements.html">Achievements</a>
     <a href="Source files/history.html">Our History</a>
     <a href="Source files/trackrecord.html">Track records</a>
 </nav>
 
 <article class="itembox">
-    <img src="Images/a smart hydration bottle.png" width="740" height="700" class="image" alt="image of a smart , digital water bottle">
+    <div class="imagecontainer">
+    <img src ="Images/a smart hydration bottle.png" alt="image of a smart , digital water bottle"></div>
     <div class="textbox">
-        <a href="Source files/products.html" class="title" >Smart Hydration Bottle</a>
+        <a href="Source files/products.html"  >Our Best Seller , The Smart Hydration Bottle</a>
         <p>The smart hydration bottle is an innovative solution designed to transform the way we approach staying hydrated. This high-tech bottle is equipped with a variety of advanced features aimed at making hydration easy, efficient, and tailored to individual needs. At the core of its functionality is a sophisticated sensor system that monitors and records your daily water intake. This data is displayed on a sleek, intuitive digital interface, providing real-time updates on the water's temperature, the remaining capacity, and your progress towards hydration goals.
             <br><br>One of the standout features is the built-in UV-C light, which ensures the bottle is always clean and sanitary. By eliminating harmful bacteria and viruses, the UV-C light keeps the interior of the bottle sterile, which means your water is not just cool and refreshing but also safe to drink. This self-cleaning function is particularly beneficial for individuals with busy lifestyles who might not have the time to frequently wash their bottles.
             <br><br>The smart hydration bottle also comes with a companion app that syncs with the bottle to offer personalized hydration plans. The app can send reminders and notifications to ensure you’re drinking enough water throughout the day, taking into account factors like your activity level, weather conditions, and personal health goals. Moreover, the app tracks long-term hydration patterns, helping you understand and improve your hydration habits over time.
             <br><br>In terms of design, the bottle boasts a minimalist, ergonomic shape that fits comfortably in your hand and seamlessly into your everyday life. It's crafted from high-quality, BPA-free materials that are durable and environmentally friendly. Available in a range of colors and finishes, the smart hydration bottle is as stylish as it is functional, making it the perfect accessory for professionals, fitness enthusiasts, and anyone keen on maintaining their health and well-being.
             <br><br>Whether you’re at the office, the gym, or on the go, the smart hydration bottle ensures you stay hydrated and healthy with ease. It's not just a water bottle—it's a companion in your journey towards better health, making sure you never forget to take a sip again.
         </p>
-        <br><Br><a href="Source files/product explaination.html" class="info">Click here for more info</a>
+        <p style="text-align: center;"><em>Click 'Our Best Seller,The Smart Hydration bottle' for more info!</em></p>
+    </div>
+</article>
+ <!--the other 2 itembox do about 2 other html pages like history or smth-->
+<article class="itembox-reverse">
+    <div class="textbox">
+    <a href="Source files/trackrecord.html">Our Sales Records</a>
+        <p>
+            In November 2024, AquaLife Water Bottles experienced an unprecedented surge in sales, achieving a remarkable $750,000 in revenue, which marked a 30% increase from the previous month. This significant growth was driven by the successful launch of several innovative products, including the Smart Hydration Bottle, which alone accounted for 20,000 units sold. This product has revolutionized how consumers approach hydration, offering advanced features such as real-time water intake monitoring, a built-in UV-C light for self-cleaning, and a sleek digital interface.
+            <br><br>
+            Additionally, the Eco-Friendly Collapsible Bottle and Thermal Flask have garnered widespread consumer interest, selling 15,000 and 10,000 units, respectively. The collapsible bottle, designed with sustainable materials and portable convenience in mind, has become particularly popular among environmentally-conscious customers. Meanwhile, the Thermal Flask, known for its affordability and efficient thermal insulation, has been a hit with cost-savvy buyers.
+            <br><br>
+            AquaLife's impressive sales performance can be attributed to effective marketing strategies, including seasonal promotions and targeted advertising campaigns that emphasized the unique features and benefits of their new product lines. The company's commitment to sustainability and innovation has resonated with a growing base of eco-conscious and tech-savvy consumers.
+            <br><br>
+            Customer feedback has been overwhelmingly positive, with over 95% of buyers rating their purchases as satisfactory or above. Many customers have praised the Smart Hydration Bottle for its technological advancements and the Eco-Friendly Collapsible Bottle for its practicality and environmental benefits.
+            <br><br>
+            Regionally, AquaLife has seen substantial market penetration across North America, Europe, and Asia, accounting for 40%, 30%, and 20% of total sales, respectively. This widespread acceptance highlights the company's expanding global footprint and its ability to cater to diverse market needs.
+            <br><br>
+            Looking ahead, AquaLife plans to build on this momentum by diversifying its product offerings further, enhancing customer engagement through personalized experiences, and exploring new markets to sustain its growth trajectory. The company's vision for the future includes developing more innovative hydration solutions that align with their core values of health, sustainability, and convenience.
+            
+        </p>
+        <p style="text-align: center;"><em>Click 'Our Sales Records' for more info!</em></p>
+    </div>
+    <div class="imagecontainer">
+        <img src="Images/salesrecords.jpg" alt="Image of a sales record on paper">
     </div>
 </article>
 
-<article class="itembox"></article> <!--the other 2 itembox do about 2 other html pages like history or smth-->
-<article class="itembox"></article>
+<article class="itembox">
+    <div class="imagecontainer">
+        <img src ="Images/achievementpictures.jpg" alt="image of a shelf filled with certificates and awards">
+    </div>
+    <div class="textbox">
+        <a href="Source files/achievements.html" >Our Achievements</a>
+        <p>A water bottle company, especially one like AquaLife, can achieve numerous prestigious awards and certifications that highlight its success and impact in the industry. Here is a more detailed account of these accolades and the efforts behind them:
+            <br><br>
+            Innovation Awards: AquaLife earned the Best New Product Award and the Technology Excellence Award for its groundbreaking Smart Hydration Bottle. This product was recognized for its advanced features, such as real-time water intake monitoring, a self-cleaning UV-C light, and a sleek digital interface. These awards were achieved through extensive research and development, incorporating cutting-edge technology to meet the needs of modern consumers.
+            <br><br>
+            Sustainability Certifications: The company received the Green Product Certification and the Sustainability Leadership Award for its commitment to eco-friendly practices. AquaLife's Eco-Friendly Collapsible Bottle, made from sustainable materials like food-grade silicone and recycled plastics, played a significant role in these achievements. The company's dedication to reducing its carbon footprint and minimizing plastic waste through innovative design and manufacturing practices was key to securing these certifications.
+            <br><br>
+            Customer Satisfaction Awards: With an emphasis on customer experience, AquaLife was honored with the Customer Choice Award and the Excellence in Customer Service Award. Over 95% of customers rated their purchases as satisfactory or above, particularly appreciating the Smart Hydration Bottle's technological advancements and the collapsible bottle's practicality. These accolades were achieved through continuous engagement with customers, addressing their feedback, and maintaining high standards of product quality and service.
+            <br><br>
+            Design Awards: The Red Dot Design Award, the iF Product Design Award, and the Good Design Award were bestowed upon AquaLife for its innovative and ergonomic product designs. The company’s ability to combine aesthetics with functionality, ensuring products are both user-friendly and visually appealing, helped secure these prestigious recognitions. The design process involved collaboration with top designers and incorporating user feedback to create products that stand out in the market.
+
+        </p>
+        <p style="text-align: center;"><em>Click 'Our Achievements' for more info!</em></p>
+    </div>
 </article>
 </body>
 </html>

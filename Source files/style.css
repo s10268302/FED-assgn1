@@ -10,10 +10,11 @@ body{background-color: #FAF6E3 ;}
 }
 #navbar>a:link,#navbar>a:visited{
     position:inherit;
-    flex: 0 0 10.543%;
-    padding-left: 6%;
+    display:flex;
+    align-items: center;
     padding-top: 2%;
     padding-bottom: 2%;
+    flex:1 0 19%;
     border: 1px solid black;
     font-size: 17px;
     color:black;
@@ -22,16 +23,11 @@ body{background-color: #FAF6E3 ;}
     
 }
 /* remember to remove border on final product (border is for guideline) */
-.itembox{
+.itembox,.itembox-reverse{
     display:flex;
     flex-direction:row;
     height:800px;
-    border: 1px solid black;
-}
 
-.image{
-    flex:50%;
-    padding : 2.5% 4% 3.5% 4%;
 }
 
 .textbox{
@@ -39,19 +35,3 @@ body{background-color: #FAF6E3 ;}
     flex : 50%;
 
 }   
-.textbox>a:link.title, .textbox>a:visited.title{
-    position: relative;
-    display:block;
-    font-size: 23px;
-    padding:5% 35% 0% 35%;
-}
-.textbox>a:link.info, .textbox>a:visited.info{
-    position: relative;
-    display:block;
-    font-size: 23px;
-    padding:0% 29% 0% 36%;
-}
-.textbox>p {
-    padding: 2% 4% 2% 2%;
-    font-size: 18px;
-}
