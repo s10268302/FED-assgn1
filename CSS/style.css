@@ -43,3 +43,11 @@ body{background-color: #FAF6E3 ;}
     flex : 50%;
 
 }   
+img{
+    width:75%;
+    height:85%;
+}
+.textbox>p {
+    padding: 0% 4% 0% 2%;
+    font-size: 18px;
+}
