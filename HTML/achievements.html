@@ -4,7 +4,33 @@
 <head>
     <link rel="stylesheet" href="../CSS/style.css">
 <style>
+.achvitembox{
+    display:flex;
+    flex-direction:row;
+    height:900px;
+    border:1px solid black;
+}
+.achievecontainer{
+    flex:25%;    
+    border: 0.5px ridge #AB886D;
+    flex-direction: column;
+}
+.imgcontainer{
+    display: flex;
+    flex:0 0 30%;   
+    justify-content: center;
+    align-items: center;
+}
+.achvtext{
+    flex:70%;
+    text-align: center; 
+    font-size:medium;
+}
 
+.achvtext>p{
+    padding: 0% 4% 0% 2%;
+    font-size:medium;
+}
 @media (max-width:1600px){
     #navbar>a:link,#navbar>a:visited{
         display:flex;
@@ -12,10 +38,19 @@
         flex: 1 0 29.8%;
         align-items: center;
         justify-content: center;
-    
+        
     padding-top: 2%;
     padding-bottom: 2%;
     }
+    .achvitembox{
+        flex-direction: column;
+        height:auto;
+    }
+    .achievecontainer{
+        flex-direction: column;
+
+    }
+
 }
 </style>
 </head>
@@ -29,12 +64,73 @@
     <a href="trackrecord.html">Track records</a>
 </nav>
 
-<article class="product">
+<article class="achvitembox">
+    <div class="achievecontainer">
+        <div class="imgcontainer">
+            <img src="../Images/Innovation Award certificate template.png" class="img">
+        </div>
+        <div class="achvtext">
+            <h1>Innovation Award 2024</h1>
+        <p>he Innovation Award is a prestigious recognition that honors outstanding creativity and ingenuity. I am proud to say that AquaLife has been awarded this esteemed honor for our exceptional achievements in innovation.
+            <br><br>
+            At AquaLife, we are committed to pushing the boundaries of what is possible. Our dedication to introducing groundbreaking ideas, products, and services has significantly impacted our industry and society. This award celebrates our spirit of innovation and encourages us to continue striving for excellence.
+            <br><br>
+            In 2024, AquaLife was recognized for our remarkable contributions to innovation. Our relentless pursuit of new standards and inspiring others to think outside the box has driven positive change and set us apart as leaders in our field.
+            <br><br>
+            I am incredibly proud of our team and their dedication to making a difference through innovation. This award is a testament to our hard work and commitment to creating a better future.
+        </p>
+        </div>
+    </div>
+    <div class="achievecontainer">
+        <div class="imgcontainer">
+            <img src="../Images/Customer Satisfaction Awards certificate using the same template for innovation awards.png" class="img">
+        </div>
+        <div class="achvtext">
+            <h1>Customer Satisfaction Award 2024</h1>
+            <p>
+                The Customer Satisfaction Award is a prestigious recognition that honors outstanding dedication to customer service and satisfaction. I am proud to say that AquaLife has been awarded this esteemed honor for our exceptional commitment to our customers.
+                <br><br>
+                At AquaLife, we believe that our customers are at the heart of everything we do. Our dedication to providing excellent service and exceeding customer expectations has significantly impacted our reputation and success. This award celebrates our unwavering focus on customer satisfaction and encourages us to continue striving for excellence.
+                <br><br>
+                In 2024, AquaLife was recognized for our remarkable efforts in ensuring customer satisfaction. Our relentless pursuit of high standards and our commitment to listening to and understanding our customers’ needs have set us apart as leaders in our field.
+                <br><br>
+                I am incredibly proud of our team and their dedication to making a difference through exceptional customer service. This award is a testament to our hard work and commitment to creating an outstanding customer experience.
+            </p>
+        </div>
+    </div>
+    <div class="achievecontainer">
+        <div class="imgcontainer">
+            <img src="../Images/Design Award certificate.png" class="img">
+        </div>
+        <div class="achvtext">
+            <h1>Design Award 2024</h1>
+            <p>In 2024, AquaLife has been awarded the distinguished Design Award, celebrating our dedication to unparalleled excellence and creativity in design.
+                <br><br>
+                At AquaLife, our driving force is innovation. We continuously strive to craft designs that not only meet but surpass the expectations of our customers. Our commitment to creating aesthetically pleasing and functional designs has earned us this notable recognition.
+                <br><br>
+                This award highlights our exceptional design achievements and the tireless efforts of our team to push the boundaries of design. Their dedication to producing inspiring and delightful products sets us apart in the industry.
+                <br><br>
+                I am immensely proud of our team's relentless pursuit of design excellence. This accolade is a testament to our collective endeavors to leave a lasting impact through innovative design.</p>
+        </div>
+    </div>
+    <div class="achievecontainer">
+        <div class="imgcontainer">
+            <img src="../Images/Sustainability Certification Award certificate using the same template as the Best New Product Award.png" class="img">
+        </div>
+        <div class="achvtext">
+            <h1>Design Award 2024</h1>
+            <p>In recognition of our unwavering commitment to environmental stewardship, AquaLife is honored to receive the prestigious Sustainability Award in 2024.
+                <br><br>
+                At AquaLife, sustainability is not just a buzzword; it is the core of our operations and our ethos. We are dedicated to pioneering eco-friendly practices, reducing our environmental footprint, and fostering a culture of sustainability within our industry. This award celebrates our relentless efforts to create a positive impact on the planet.
+                <br><br>
+                This accolade highlights our team's extraordinary dedication to sustainable innovation, whether through creating products that minimize waste, implementing energy-efficient processes, or championing the cause of environmental conservation.
+                <br><br>
+                Receiving this award is a testament to our determination to build a better, greener future. I am incredibly proud of our team’s passion and hard work in driving sustainable initiatives that set new benchmarks for environmental responsibility.</p>
+        </div>
+    </div>
+</article>
 
-</article>
-<article class="product"></article>
-<article class="product"></article>
-</article>
+
 </body>
 
 </html>
