@@ -51,3 +51,9 @@ img{
     padding: 0% 4% 0% 2%;
     font-size: 18px;
 }
+.imagecontainer{
+    display: flex;
+    flex:0 1 30%;
+    justify-content: center;
+    align-items:center ;
+}
