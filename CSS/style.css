@@ -30,7 +30,7 @@ body{background-color: #FAF6E3 ;}
     flex-direction: column;
     
 }
-/* remember to remove border on final product (border is for guideline) */
+
 .itembox,.itembox-reverse{
     display:flex;
     flex-direction:row;
