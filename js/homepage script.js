@@ -1,5 +1,5 @@
 const img = document.getElementById("img");
-const imageSources = ["Images/a smart hydration bottle.png", "Images/a cheap and well-designed thermal flask.png", "Images/a grey plastic collapsible bottle.png"];
+const imageSources = ["Images/smartbottle.png", "Images/thermalflask.png", "Images/collapsiblebottle.png"];
 let index = 0;
 let travel;
 

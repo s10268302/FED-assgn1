@@ -1,5 +1,9 @@
 # FED-assgn1
-Products will be the products i will be selling ( 3 different types , normal plastic water bottles , thermal flask and a 2l insulting cannister)
-Achievements , track records and history will state the companies previous records
-index represents the main /home page 
-product explaination goes in depth of the materials and the usage of the products
+
+The users being targeted will be people who are looking for a waterbottle for any occassion / for general use . Anyone , including athletes , students even office workers are the targetted audience .
+The website is being catered to users who are looking more indepth into our water bottle company and looking for information to make sure its relaible . Its not easy to be able to discern how good a product is just seeing and feeling it , hence having the website which contains track records , information about how the product was made and its functionality would make users more informed of what they are purchasing and ensure that they know that they are getting their value worth and arent just buying some knock off cheap material water bottle.
+Moreover , to ensure that users will have an easy time reading at all the infomration our website has , i have chosen a calm and cool colour scheme , to make sure that their eyes do not hurt when skimming through all the information. I made use of sections and partitioned alot of the information into equal boxes such that it makes it even easier to read and tell which information refers to which section 
+
+In my website , i have a navigation bar , hyperlinks and scripts that are implemented to help make it more informative . The navigation bar goes through the 5 html pages inside , the home page (or index.html),the products , history of the company , its achievements and its sales records . Pressing the box that states which page will lead the user to the page . The hyperlinks are implemented at the homepage to allow users to use it as a shortcut as users start off at the homepage . The 2 scripts being used are to ensure that there is a variety and interactivity between the user and the webpage so that it wont be monotonous for the user and make them click off as it is all text.
+
+For the java script, i did use AI and stackover flow to help me as i needed help debugging and making sure that the script works fine . 
