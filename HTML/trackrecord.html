@@ -4,32 +4,23 @@
 <head>
     <link rel="stylesheet" href="../CSS/style.css">
 <style>
-.container{
+.yeartitle{
+    text-align: center;
+    font-size: 200%;
+}
+.salesmonth{
     display:flex;
-    flex-direction:row;
-    height:600px;
-}
-.halfcontainer{
-    flex:0 0 25%;
-    flex-direction: row;
-    border: 1px solid #B59F78;;
-}
-.date{
-    display: flex;
-    flex: 0 0 30%;
+    flex-direction:column;
+    height:800px;
     justify-content: center;
     align-items: center;
+    border:1px solid black;
+}
 
-    font-size:150%;
-}
-.yeartitle{
-    text-align: center; 
-    font-size:300%;
-}
-.halfcontainer>p{
-    font-size: 125%;
+.salesmonth>p{
+    font-size: large;
     text-align: center;
-    padding: 2% 4% 2% 4%;
+    padding:0% 35% 0% 35%;
 }
 @media screen and (max-width: 1600px) {
     #navbar>a:link,#navbar>a:visited{
@@ -42,9 +33,11 @@
     padding-top: 2%;
     padding-bottom: 2%;
     }
-    .itembox{
-        flex-direction: column;
-    }
+    .salesmonth>p{
+    font-size: large;
+    text-align: center;
+    padding:0% 5% 0% 5%;
+}
 }
 </style>
 </head>
@@ -58,74 +51,14 @@
         <a href="trackrecord.html">Track records</a>
     </nav>
     <p class="yeartitle"><strong>YEAR 2024</strong></p>
-    <article class="container">
-        <div class="halfcontainer">
-            <div class="date">
-                <p>January</p>
-            </div>
-            <p><strong>Sales:$500,000</strong></p>
-            <p>Units sold : 25,000 Smart Hydration Bottles</p>
-            <p>Breakdown: During the new year ,Aqualife partnered with popular fitness centers like Anytime Fitness and Fitness First to start the New Years Resolution Campaign. The campaign included in-gym promotions and wellness app advertisements. Health experts endorsed Aqualife products, emphasizing the importance of hydration in achieving fitness goals.</p>
-        </div>
-        <div class="halfcontainer">
-            <div class="date">
-                <p>March</p>
-            </div>
-            <p><strong>Sales:$750,000</strong></p>
-            <p>Units sold :35,000 Collapsible and Portable Insulating Bottles</p>
-            <p>Breakdown: High-profile fitness influencers like Kayla Itsines and Joe Wicks shared their personal stories on social media, showcasing Aqualife bottles during workouts. This partnership boosted credibility and visibility among fitness enthusiasts , helping to generate more sales. It also greatly increased the amount of follower gaained on our social media pages , leading to a greater reach of audience.</p>
-        </div>
-        <div class="halfcontainer">
-            <div class="date">
-                <p>April</p>
-            </div>
-            <p><strong>Sales:$600,000</strong></p>
-            <p>Units sold :30,000 reusable bottles</p>
-            <p>Breakdown: High-profile fitness influencers like Kayla Itsines and Joe Wicks shared their personal stories on social media, showcasing Aqualife bottles during workouts. This partnership boosted credibility and visibility among fitness enthusiasts , helping to generate more sales. It also greatly increased the amount of follower gaained on our social media pages , leading to a greater reach of audience.</p>
-        </div>
-        <div class="halfcontainer">
-            <div class="date">
-                <p>June</p>
-            </div>
-            <p><strong>Sales:$800,000</strong></p>
-            <p>Units sold :40,000 Thermal Flasks and 30,000 Collapsible Insulating Bottles</p>
-            <p>Breakdown: Aqualife partnered with Outdoor aventure groups/organizations like REI and National Geographic Adventure. The promotions highlighted the durability and convenience of thermal flasks and collapsible insulating bottles for summer activities. Influencers in the adventure and travel space shared their experiences using these products during their trips, driving sales.</p>
-        </div>
-    </article>
-
-    <article class="container">
-        <div class="halfcontainer">
-            <div class="date">
-                <p>August</p>
-            </div>
-            <p><strong>Sales:$900,000</strong></p>
-            <p>Units sold :38,000 Thermal Flasks and 22,000 Collapsible Insulating Bottles</p>
-            <p>Breakdown: Aqualife managed to clinch sponsorship from major marathons like the New York City Marathon and partnerships with hiking groups increased the demand for durable hydration solutions. Aqualife's thermal flasks and collapsible bottles were promoted for their practicality and reliability in rigorous outdoor activities, leading to a sharp increase in media attention due to the publicity provided by these major marathons</p>
-        </div>
-        <div class="halfcontainer">
-            <div class="date">
-                <p>September</p>
-            </div>
-            <p><strong>Sales:$700,000</strong></p>
-            <p>Units sold :28,000 Smart Hydration Bottles</p>
-            <p>Breakdown: Aqualife collaborated with educational institutions like Harvard and MIT emphasized the importance of hydration for students, implementing the Back-To-School campaign. Promotions included special offers and visibility through school newsletters and social media channels, helping students stay hydrated during their busy school days.</p>
-        </div>
-        <div class="halfcontainer">
-            <div class="date">
-                <p>October</p>
-            </div>
-            <p><strong>Sales:$650,000</strong></p>
-            <p>Units sold :26,000 Smart Hydration Bottles</p>
-            <p>Breakdown: Aqualife organized and sponsored fitness events with spooky themes and promoted a challenged called the Halloween-Themed Fitness Challenge on social media which garnered a large amount of attention in the gym community. Partnerships with popular gyms and fitness apps created unique experiences, encouraging participants to stay hydrated with smart hydration bottles during Halloween-themed runs and workouts.</p>
-        </div>
-        <div class="halfcontainer">
-            <div class="date">
-                <p>November</p>
-            </div>
-            <p><strong>Sales:$1,200,000</strong></p>
-            <p>Units sold :50,000 Thermal flasks, 30,000 Smart Hydration Bottles, and 25,000 Collapsible Insulating Bottles</p>
-            <p>Breakdown: During the bustling month of November , Aqualife capitalized on days like Black Friday and 11/11 to push out great discounted deals . Extensive online promotions and early bird deals created a buzz. The campaign featured significant discounts on all products, and collaborations with e-commerce platforms like Amazon and eBay further boosted visibility. Early bird specials and limited-time offers drove high sales volumes.</p>
-        </div>
-    </article>
+<article class="salesmonth">
+    <h1 id="date"></h1>
+    <h2 id="monthlysales"></h2>
+    <p id="sales"></p>
+    <p id="desc"></p>
+    <button id="prevButton">Previous</button>
+    <button id="nextButton">Next</button>
+</article>
+<script src="../js/sales.js"></script>
 </body>
 </html>
